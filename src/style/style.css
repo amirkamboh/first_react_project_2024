@@ -798,4 +798,22 @@ footer{
     line-height: 30px; /* 150% */
 }
 
+.global_title {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.global_title span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
 /* End Footer CSS */
