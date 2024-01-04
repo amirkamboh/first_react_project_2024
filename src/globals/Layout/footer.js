@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="coloumn2">
           <div className="coloumn2-a">
             <ul>
-              <li><span>Home</span></li>
+            <li><span>Home</span></li>
               <li>Services</li>
               <li>Contact</li>
             </ul>

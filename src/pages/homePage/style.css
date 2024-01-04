@@ -106,3 +106,52 @@ justify-content: center;
     line-height: 40px;
     margin-bottom: 1rem;
 }
+
+.whoarey {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 60px 280px 60px 10px;
+}
+.whoareyou_image {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.whoareyou_image .whoareyou_layout {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    opacity: 0.1;
+    background: #C4C4C4;
+    position: absolute;
+    top: 80px;
+    left: 160px;
+}
+.whoareyou_image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.whoarey_content {
+    margin-top: 70px;
+}
+.whoarey_content .para1 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 194.444% */
+    margin-top: 20px;
+}
+.whoarey_content .para2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 194.444% */
+    margin-top: 10px;
+}
