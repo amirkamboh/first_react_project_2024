@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div>
+    <>
         <header>
         <div className="img">
           <img src={Logo} alt="Logo" />
@@ -12,15 +12,18 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <link to="/">Home</link>
+              <Link to="/">
+                Home
+                </Link>
             </li>
+            <li>Services</li>
             <li>
-              <link t0="/about-us">
+              <Link to="/about-us">
                 About Us
-                </link>
+                </Link>
             </li>
             <li>
-              <link to="/contact-us"> Contact Us </link>
+              <Link to="/contact-us"> Contact Us </Link>
             </li>
             <li className="header-btn">
               +92 3037998345
@@ -28,7 +31,7 @@ const Header = () => {
           </ul>
         </nav>
       </header>
-    </div>
+    </>
   )
 }
 
