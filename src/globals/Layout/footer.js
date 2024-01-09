@@ -1,5 +1,6 @@
 import React from 'react'
 import Flogo from '../../assets/Images/logo.svg'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -16,17 +17,17 @@ const Footer = () => {
         <div className="coloumn2">
           <div className="coloumn2-a">
             <ul>
-            <li><span>Home</span></li>
-              <li>Services</li>
-              <li>Contact</li>
+            <li><span><Link to="/">Home</Link></span></li>
+              <li><Link to="/about-us">About Us</Link></li>
+              <li><Link to="/contact-us">Contact</Link></li>
             </ul>
           </div>
           <div className="coloumn2-b">
             <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Linkedin</li>
-              <li>Instagram</li>
+              <li><a href='https://facebook.com/' rel='noreferrer' target='_blank'>Facebook</a></li>
+              <li><a href='https://twitter.com/' rel='noreferrer' target='_blank'>Twitter</a></li>
+              <li><a href='https://linkedin.com/' rel='noreferrer' target='_blank'>Linkedin</a></li>
+              <li><a href='https://www.instagram.com/'>Instagram</a></li>
             </ul>
           </div>
         </div>

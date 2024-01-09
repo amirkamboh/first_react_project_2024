@@ -751,6 +751,10 @@ footer{
     line-height: 30px; /* 150% */
     padding: 12px 0px;
 }
+.coloumn3 ul li:hover {
+        color: #058B8C;
+        cursor: pointer;
+}
 .news_letter {
     display: flex;
     padding: 15px 0px;
