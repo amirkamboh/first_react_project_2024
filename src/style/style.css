@@ -44,8 +44,39 @@ nav ul li:hover{
 }
 .header-btn:hover{
     color: #fff;
+}
+ul li {
+    display: inline-block;
+    position: relative;
 } 
-
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 165%;
+    position: absolute;
+    display: none;
+    background: #058B8C;
+    text-decoration: none;
+    color: #FFF;
+    z-index: 999;
+    padding: 10px 5px;
+}
+ul.dropdown li {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+ul.dropdown li:hover {
+    color: #058B8C;
+    background: #FFF;
+}
 /* End Header CSS */
 
 /* Start Banner CSS */
