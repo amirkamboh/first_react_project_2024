@@ -81,7 +81,7 @@ ul.dropdown li:hover {
 
 /* Start Banner CSS */
 .baaner_secetion {
-    padding: 50px 0px;
+    padding: 30px 0px;
     background: url("../assets/Images/moon_right.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -101,10 +101,13 @@ ul.dropdown li:hover {
     padding: 0px;
 }
 .banner_inner_section .img_banner img {
+    width: 450px;
+    height: 450px;
+    margin-left: 120px;
     border-radius: 50%;
 }
 .banner_inner_section .content_banner {
-    margin-top: 130px;
+    margin-top: 120px;
 }
 .banner_inner_section .content_banner small {
     border-radius: 20px;
