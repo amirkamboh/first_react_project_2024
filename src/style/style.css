@@ -103,11 +103,11 @@ ul.dropdown li:hover {
 .banner_inner_section .img_banner img {
     width: 450px;
     height: 450px;
-    margin-left: 120px;
+    margin-left: 200px;
     border-radius: 50%;
 }
 .banner_inner_section .content_banner {
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .banner_inner_section .content_banner small {
     border-radius: 20px;
@@ -124,7 +124,7 @@ ul.dropdown li:hover {
      margin-top: 10px; 
      color: #1E1E1E;
      font-family: Rubik;
-     font-size: 60px;
+     font-size: 50px;
      font-style: normal;
      font-weight: 400;
      line-height: normal;
@@ -145,7 +145,7 @@ ul.dropdown li:hover {
 .banner_inner_section .content_banner .des {
     color: #1E1E1E;
     font-family: Rubik;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 166.667% */
@@ -185,33 +185,37 @@ ul.dropdown li:hover {
 
 /* Start Banner Upper CSS */
 .banner_secetion_upper {
+    margin-top: 60px;
     padding: 5px 0px;
 }
 .page_witdh_upper {
     max-width: 1250px;
     margin: auto;
-    padding: 0px 80px;
+    padding: 0px 90px;
 }
 .banner_inner_section_upper {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
 }
 .banner_inner_section_upper .image_fix {
-    border-radius: 60px;
+    border-radius: 50%;
     background: #F8F8F8;
     padding: 30px;
-    width: 117px;
-    height: 115px;
+    width: 150px;
+    height: 150px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.08);
 }
 .banner_inner_section_upper .image_fix img {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .banner_inner_section_upper .content_fix {
     color: #1E1E1E;
     font-family: Rubik;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -441,7 +445,7 @@ ul.dropdown li:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 10px 180px 10px 10px;
+    padding: 10px;
 }
 .banner_inner_secetion_middle_3_content .middle3_heading {
     color: #FFF;
@@ -459,12 +463,12 @@ ul.dropdown li:hover {
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
-    line-height: 20px; /* 194.444% */
+    line-height: 25px; /* 194.444% */
     padding: 10px 70px 10px 10px;
 }
 .banner_inner_secetion_middle_3_image {
-     width: 360px;
-     height: 360px;
+     width: 400px;
+     height: 400px;
      background-color: red;
      background: url("../assets/Images/middle3.png");
      background-repeat: no-repeat;
@@ -472,13 +476,13 @@ ul.dropdown li:hover {
      border-radius: 50%;
 }
 .middle3_image_inner {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background: #C4C4C4;
     opacity: 0.1;
-    margin-top: 70px;
-    margin-left: 135px;
+    margin-top: 60px;
+    margin-left: 125px;
 }
 
 /* Start Banner Middle Lower CSS */
@@ -735,6 +739,7 @@ ul.dropdown li:hover {
 .banner_middle_lower_2_content .para_number .ff {
     margin-right: 20px;
 }
+
 /* Start Footer CSS */
 footer{
     max-width: 1250px;
@@ -757,20 +762,21 @@ footer{
 .coloumn3 ul li:hover {
         color: #058B8C;
         cursor: pointer;
+        text-decoration: none;
 }
 .news_letter {
     display: flex;
     padding: 15px 0px;
 }
 .news_letter input {
-    width: 74%;
+    width: 65%;
     border-radius: 341px;
     border: 2px solid #058B8C;
     height: 35px;
     padding: 15px;
 }
 .news_letter button {
-    width: 23%;
+    width: 25%;
     margin-left: 1rem;
     border-radius: 48px;
     background: #058B8C;
@@ -782,14 +788,17 @@ footer{
     line-height: 30px; /* 166.667% */
     border: none;
 }
+.coloumn1 {
+    margin-top: 25px;
+}
 .coloumn1 p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
     color: #8F8F8F;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .coloumn2 {
     display: grid;

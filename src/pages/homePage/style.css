@@ -111,7 +111,7 @@ justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 60px 280px 60px 10px;
+    padding: 60px;
 }
 .whoareyou_image {
     width: 400px;
