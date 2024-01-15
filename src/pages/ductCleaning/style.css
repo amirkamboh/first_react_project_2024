@@ -1,0 +1,22 @@
+.duct_sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.duct_hero_content span {
+    padding: 10px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px; /* 0% */
+    border-radius: 30px;
+    background: #058B8C;
+}
+.duct_hero_image {
+    background: url("../../assets/Images/Cleaning.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
