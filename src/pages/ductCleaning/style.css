@@ -3,20 +3,72 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+.duct_hero_content {
+    margin-top: 90px;
+}
 .duct_hero_content span {
-    padding: 10px;
     color: #FFF;
     font-family: Rubik;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 0px; /* 0% */
-    border-radius: 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
     background: #058B8C;
 }
-.duct_hero_image {
-    background: url("../../assets/Images/Cleaning.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+.duct_hero_content .ac_duct_title {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    margin-top: 15px;
+}
+.duct_hero_content .clean_service_title {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.duct_button .duct_btn1 {
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 20px;
+    border: none;
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+}
+.duct_button .duct_btn2 {
+    border-radius: 20px;
+    border: 1px solid #1E1E1E;
+    padding: 10px 30px;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.duct_hero_image img {
+    width: 600px;
+    height: 400px;
 }
