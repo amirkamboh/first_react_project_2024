@@ -1,5 +1,5 @@
 import React from 'react'
-import ductheroimg from '../../../assets/Images/service_img.png'
+import ductheroimg from '../../../assets/Images/AC Duct Cleaning.png'
 
 const Ductherosection = () => {
   return (
