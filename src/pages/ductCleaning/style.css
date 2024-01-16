@@ -1,3 +1,6 @@
+body {
+    background: #F9F9F9;
+}
 .duct_sections {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -71,4 +74,195 @@
 .duct_hero_image img {
     width: 600px;
     height: 400px;
+}
+.form_duct_areas {
+    max-width: 950px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px 20px 60px 20px; 
+    margin: 1rem auto;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.form_duct_areas .form_duct_offer {
+    border-radius: 0px 50px 0px 50px;
+    background: linear-gradient(0deg, #058B8C 10.83%, #006061 104.55%);
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+}    
+.form_duct_areas .form_duct_offer p {
+    text-align: center;
+    font-family: Rubik;
+    color: #7BFEFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form_duct_areas .first_input_form {
+    width: 48%;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid #E4E4E4;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+.form_duct_areas .last_input_form {
+    width: 48%;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid #E4E4E4;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+.form_duct_areas .email_input_form {
+    width: 48%;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid #E4E4E4;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+.form_duct_areas .phone_input_form {
+    width: 48%;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid #E4E4E4;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+.form_duct_areas .message_input_form {
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #E4E4E4;
+    padding: 20px 120px 120px 20px;
+    margin-top: 20px;
+}
+.form_duct_areas .form_btn {
+    margin-top: 15px;
+    background: #058B8C;
+    padding: 7px 40px;
+    float: right;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.duct_solutions_section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.duct_solutions_parts {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+}
+.duct_solutions_parts .solutions_part1 h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    margin-top: 50px;
+}
+.duct_solutions_parts .solutions_part1 h2 span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.duct_solutions_parts .solutions_part1 p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 194.444% */ 
+} 
+.duct_solutions_parts .solutions_part1 .duct_solutions_para1 {
+    margin-top: 15px;
+}
+.duct_solutions_parts .solutions_part1 .duct_solutions_para2 {
+    margin-top: 15px;
+}
+.solutions_part2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 120px;
+}
+.solutions_part2 img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.solutions_part2_layout {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: absolute;
+    left: 148px;
+    top: 75px;
+    opacity: 0.2;
+    background: #C4C4C4;
+}
+.solutions_part3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 50px;
+}
+.solutions_part3 img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.solutions_part3_layout {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: absolute;
+    left: 148px;
+    top: 75px;
+    opacity: 0.2;
+    background: #C4C4C4;
+}
+.duct_solutions_parts .solutions_part4 {
+    margin-top: 80px;
+}
+.duct_solutions_parts .solutions_part4 h2 span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.duct_solutions_parts .solutions_part4 p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 194.444% */ 
+} 
+.duct_solutions_parts .solutions_part4 .duct_solutions_para3 {
+    margin-top: 15px;
+}
+.duct_solutions_parts .solutions_part4 .duct_solutions_para4 {
+    margin-top: 15px;
 }
