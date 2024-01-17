@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
         <footer>
         <div className="coloumn1">
-          <img src={Flogo} alt='footer_logo'/>
+          <Link to="/"><img src={Flogo} alt='footer_logo'/></Link>
           <p>
             We make sure that your safety is never compromised. 
             This is why we hire all the staff under the roof of Home Comfort, 

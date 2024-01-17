@@ -7,7 +7,7 @@ const Header = () => {
     <>
         <header>
         <div className="img">
-          <img src={Logo} alt="Logo" />
+          <Link to="/"><img src={Logo} alt="Logo" /></Link>
         </div>
         <nav>
           <ul>
@@ -16,7 +16,7 @@ const Header = () => {
             </li>
             <li>Services
           <ul className='dropdown'>
-             <li>Duct Cleaning</li>
+             <li><Link to="/duct-cleaning">Duct Cleaning</Link></li>
              <li>AC Services</li>
              <li>Handyman</li>
              <li>Plumbing</li>
