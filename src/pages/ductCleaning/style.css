@@ -266,3 +266,96 @@ body {
 .duct_solutions_parts .solutions_part4 .duct_solutions_para4 {
     margin-top: 15px;
 }
+.duct_benifits {
+    margin-top: 90px;
+}
+.duct_benifits .our_benifits h2 {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.duct_benifits .our_benifits span {
+    color: #058B8C;
+    font-weight: 700;
+}
+.duct_benifits .our_benifits p{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    margin-top: 15px;
+}
+.duct_our_benifits {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
+    padding: 60px 70px;
+}
+.duct_our_benifits .benifits_part1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: relative;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.08);
+}
+.duct_our_benifits .benifits_part1_layout {
+    background-image: url('../../assets/Images/Noun.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45px;
+    top: 50px;
+}
+.duct_our_benifits .benifits_part2_layout {
+    background-image: url('../../assets/Images/Guarantee.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45px;
+    top: 50px;
+}
+.duct_our_benifits .benifits_part3_layout {
+    background-image: url('../../assets/Images/Efficient.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45px;
+    top: 55px;
+}
+.benifits_part1_content h3 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 142.857% */
+    margin-top: 20px;
+}
+.benifits_part1_content p {
+    color: #1E1E1E;
+    text-align: left;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px; /* 166.667% */
+    margin-top: 20px;
+}
