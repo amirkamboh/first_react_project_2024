@@ -12,6 +12,7 @@ const Ductbenefits = () => {
                 famous online home services platform and provide our customers with the 
                 best of services and experience.</p>
         </div>
+
         <div className="duct_our_benifits">
             <div className="benifits_part1">
                 <div className="benifits_part1_layout"></div>
@@ -22,15 +23,28 @@ const Ductbenefits = () => {
             <div className="benifits_part1">
                 <div className="benifits_part3_layout"></div>
             </div>
-            <div className="benifits_part1_content">
+          </div>
+
+            <div className="duct_our_benifits_content">
+               <div className="benifits_part1_content">
                 <h3>Improved Cooling</h3>
-                <p>Regular AC servicing maintains the effectiveness 
-                of your AC, ensuring all mechanical components are workingoptimally 
-                whilst also getting obviate dust and germs</p>
+                <p>Regular AC servicing maintains the effectiveness of your AC, ensuring 
+                  all mechanical components are workingoptimally whilst also getting obviate 
+                  dust and germs. Make free to call us!</p>
             </div>
-            <div className="benifits_part2_content">B</div>
-            <div className="benifits_part3_content">C</div>
-        </div>
+            <div className="benifits_part2_content">
+              <h3>Reliability</h3>
+              <p>Regular AC services enable us to identify any potential problems early 
+                before they will negatively impact the safe and effective running of your 
+                unit.</p>
+            </div>
+            <div className="benifits_part3_content">
+              <h3>Energy Efficiency</h3>
+              <p>Regular AC services enable us to identify any potential problems early 
+                before they will negatively impact the safe and effective running of your 
+                unit.</p>
+            </div>
+            </div>      
       </div>
     </>
   )
