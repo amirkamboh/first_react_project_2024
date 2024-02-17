@@ -12,11 +12,11 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className='des'>Home</Link>
             </li>
             <li>Services
           <ul className='dropdown'>
-             <li><Link to="/duct-cleaning">Duct Cleaning</Link></li>
+             <li><Link to="/duct-cleaning" className='des'>Duct Cleaning</Link></li>
              <li>AC Services</li>
              <li>Handyman</li>
              <li>Plumbing</li>
@@ -25,8 +25,9 @@ const Header = () => {
              <li>Water Tank Cleaning</li>
           </ul>
               </li>
-            <li><Link to="/about-us">About Us</Link></li>
-            <li><Link to="/contact-us">Contact Us</Link></li>
+            <li><Link to="/about-us" className='des'>About Us</Link></li>
+            <li><Link to="/contact-us" className='des'>Contact Us</Link></li>
+            <li><Link to="/get-data" className='des'>Get Data</Link></li>
             <li className="header-btn">
               +92 3037998345
             </li>

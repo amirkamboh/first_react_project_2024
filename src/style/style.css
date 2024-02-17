@@ -49,6 +49,14 @@ ul li {
     display: inline-block;
     position: relative;
 } 
+.des {
+    text-decoration: none;
+    color: #C4C4C4;
+}
+ul li a {
+    text-decoration: none;
+    color: #C4C4C4;
+}
 ul li ul.dropdown li {
     display: block;
 }

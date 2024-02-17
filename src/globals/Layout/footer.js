@@ -17,9 +17,9 @@ const Footer = () => {
         <div className="coloumn2">
           <div className="coloumn2-a">
             <ul>
-            <li><span><Link to="/">Home</Link></span></li>
-              <li><Link to="/about-us">About Us</Link></li>
-              <li><Link to="/contact-us">Contact</Link></li>
+            <li><span><Link to="/" className='des'>Home</Link></span></li>
+              <li><Link to="/about-us" className='des'>About Us</Link></li>
+              <li><Link to="/contact-us" className='des'>Contact</Link></li>
             </ul>
           </div>
           <div className="coloumn2-b">
